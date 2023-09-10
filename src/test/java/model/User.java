@@ -5,6 +5,7 @@ public class User {
     private String firstName;
     private String lastName;
     private String password;
+    private String userName;
 
     public User(Integer id, String firstName, String lastName, String password, String userName) {
         this.id = id;
@@ -13,8 +14,6 @@ public class User {
         this.password = password;
         this.userName = userName;
     }
-
-    private String userName;
 
     public Integer getId() {
         return id;
